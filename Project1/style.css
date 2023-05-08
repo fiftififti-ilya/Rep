@@ -94,11 +94,28 @@ body{
 
 .card{
 	margin-bottom: 30px;
-	padding: 20px;
 	background-color: #ffffff;
 	max-width: 540px;
 	box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+	transition: transform 0.2s ease-in;
 }
+
+.card:hover{
+	transform: translateY(-15px);
+}
+
+.card-link{
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	color: #000000;
+	transition: color 0.2s ease-in;
+}
+
+.card-link:hover{
+	color: rgb(39, 91, 236);
+}
+
 .card:last-child, .card:nth-last-child(2){
 	margin-bottom: 0;
 }
@@ -115,13 +132,11 @@ body{
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 130%;
-	color: #000000;
 }
 
 .card p {
 	font-size: 16px;
 	line-height: 130%;
-	color: #000000;
 	margin: 0;
 }
 
@@ -201,6 +216,13 @@ body{
 	font-size: 16px;
 	text-transform: uppercase;
 	text-decoration: none;
+
+	transition: all 0.2s ease-in;
+}
+
+.footer-button:hover{
+	background-color: #ffffff;
+	color: #1e4776;
 }
 
 .footer-contacts p {
@@ -238,10 +260,7 @@ body{
 
 .project-description{
 	max-width: 730px;
-	margin-bottom: 60px;
-
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto 60px;
 }
 
 .project-description p{
@@ -249,4 +268,27 @@ body{
 	margin-bottom: 15px;
 	font-size: 16px;
 	line-height: 1.5;
+}
+
+.project-btn-back{
+	display: inline-block;
+	height: 60px;
+	border: 3px solid #275bec;
+	border-radius: 50px;
+	color: #275bec;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 54px;
+
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	transition: all 0.2s ease-in;
+}
+
+.project-btn-back:hover{
+	background-color: #275bec;
+	color: #ffffff;
 }
