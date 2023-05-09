@@ -9,9 +9,11 @@ body{
 }
 
 .container {
-	max-width: 1110px;
+	max-width: 1140px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .none{
@@ -122,7 +124,7 @@ body{
 
 
 .card-img{
-	width: 500px;
+	max-width: 100%;
 	margin-bottom: 20px;
 }
 
@@ -292,3 +294,4 @@ body{
 	background-color: #275bec;
 	color: #ffffff;
 }
+
