@@ -3,6 +3,25 @@
     .card{
         width: calc(50% - 15px)
     }
+
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .footer-row{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-col{
+        margin-bottom: 50px;
+    }
+
+    .footer-col:first-child{
+        margin-bottom: 0;
+    }
 }
 
 /*Медиа запрос: для экранов с шириной до 760px*/
@@ -54,5 +73,48 @@
 
     .card p{
         font-size: 14px;
+    }
+
+    .footer-copyright-name{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .footer-copyright p{
+        font-size: 14px;
+    }
+
+    .footer-icons p{
+        font-size: 14px;
+    }
+
+    .footer-contacts p{
+        font-size: 14px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .project{
+        padding: 40px 0 60px;
+    }
+
+    .project-header{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .project-img{
+        margin-bottom: 20px;
+    }
+
+    .project-description{
+        margin-bottom: 50px;
+
+    }
+
+    .project-btn-back{
+        padding: 0 10px;
+        width: 100%;
+        max-width: 320px;
     }
 }
